@@ -4,8 +4,10 @@ public class Data {
 
     private  int giorno;
     private  int mese;
-    private  int anno;   //final non può essere più modificato,
-                                // quindi devono essere inizializzati nel costruttore
+    private  int anno;
+
+    //final non può essere più modificato,
+    // quindi devono essere inizializzati nel costruttore
 
     private boolean valid(int giorno, int mese, int anno){
         return giorno >= 0 && giorno <= 31 && mese >= 1 && mese <= 12 && anno >= 0;
