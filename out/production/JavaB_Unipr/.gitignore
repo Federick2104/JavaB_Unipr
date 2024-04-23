@@ -9,7 +9,7 @@
 .settings
 .springBeans
 .sts4-cache
-
+Docs
 
 # Created by https://www.gitignore.io/api/git,java,maven,eclipse,windows
 
@@ -165,6 +165,8 @@ $RECYCLE.BIN/
 *.iws
 *.iml
 *.ipr
+Docs
+out
 
 ### NetBeans ###
 /nbproject/private/

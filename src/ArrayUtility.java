@@ -23,7 +23,7 @@ public class ArrayUtility {
      */
 
     public static int[] Sort(int[] Arr){
-        int l = Arr.length;
+        int l = Arr.length-1;
         int m = 0;
 
         for (int i : Arr) {
