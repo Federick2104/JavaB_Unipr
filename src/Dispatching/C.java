@@ -10,4 +10,5 @@ public class C extends B {
     public String f(A a, B b) {
         return "6";
     }
+
 }

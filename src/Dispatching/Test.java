@@ -10,7 +10,7 @@ public class Test {
         System.out.println(beta.f(beta, beta)); // 6
         System.out.println(beta.f(gamma, alfa)); // 2
         System.out.println(gamma.f(gamma, gamma)); // 5
-        System.out.println(gamma.f(gamma, alfa)); // 2
+        System.out.println(gamma.f( gamma, alfa)); // 2
         System.out.println(gamma.f(beta, gamma)); // 3
     }
 }
